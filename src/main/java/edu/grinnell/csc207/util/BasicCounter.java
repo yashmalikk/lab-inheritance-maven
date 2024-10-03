@@ -12,7 +12,7 @@ public class BasicCounter implements Counter {
   }
 
   //Methods
-  public void increment() {
+  public void increment() throws Exception {
     this.count+=1;
   }
 

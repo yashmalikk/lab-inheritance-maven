@@ -17,7 +17,7 @@ public class BoundedCounter extends BasicCounter {
   if (this.count < this.bound) {
     this.count++; // Increment the count if it's below the bound
   } else {
-    throw new Exception("Count has reached its bound."); // Throw exception if bound is reached
-    }
-  } // increment()
+    throw new Exception("Count has reached its bound."); // Throw exception if bound is reached}
+    } // increment()
+  }
 }
